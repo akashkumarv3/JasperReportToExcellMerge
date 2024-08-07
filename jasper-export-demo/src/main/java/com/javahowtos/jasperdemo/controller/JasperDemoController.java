@@ -6,6 +6,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -16,11 +17,14 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.javahowtos.jasperdemo.beans.Ifsp;
+import com.javahowtos.jasperdemo.beans.ReportDetails;
 
 import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JasperCompileManager;
@@ -78,14 +82,26 @@ public class JasperDemoController {
     private static final String JRXML_TEMP_FOLDER = "generated-temp-jrxml-reports/";
    
 
-    @PostMapping("api/document")
-    public void getDocument(HttpServletResponse response) throws IOException, JRException {
-        File resourceDir = new File(RESOURCE_DIRECTORY_PATH);
+    @PostMapping("api/document/{id}")
+    public void getDocument(HttpServletResponse response,
+    		@PathVariable String id) throws IOException, JRException {
+    	
+    	 String mergedExcellName="mergedExcel"+id+ ".xlsx";
+    	//Check json or create JSON for this API
+        ReportDetails reportDetails=new ReportDetails();
+    	
+        reportDetails.setFolderName(id);
+        List<String> jrxlsReportList=new ArrayList<>();
+        List<String> xlnsReportList =new ArrayList<>();
+        
+        File resourceDir = new File(RESOURCE_DIRECTORY_PATH+"/"+id);
         File[] jrxmlFiles = resourceDir.listFiles((dir, name) -> name.endsWith(".jrxml"));
 
         if (jrxmlFiles != null) {
             for (File jrxmlFile : jrxmlFiles) {
                 String fileName = jrxmlFile.getName();
+                jrxlsReportList.add(fileName);
+                reportDetails.setJrxlsReportList(jrxlsReportList);
                 String jasperFile = GENERATED_DIRECTORY_PATH + "/"+ JASPER_FOLDER + fileName.replace(".jrxml", ".jasper");
                 String excelFile = GENERATED_DIRECTORY_PATH + "/" + XLSX_FOLDER + fileName.replace(".jrxml", ".xlsx");
 
@@ -119,6 +135,8 @@ public class JasperDemoController {
                     exporter.exportReport();
 
                     System.out.println("Report generated successfully for file: " + fileName);
+                    xlnsReportList.add(fileName.replace(".jrxml", ".xlsx"));
+                    reportDetails.setXlnsReportList(xlnsReportList);
 
                 } catch (SQLException e) {
                     e.printStackTrace();
@@ -127,8 +145,9 @@ public class JasperDemoController {
         } else {
             System.out.println("No JRXML files found in the directory.");
         }
-        //now merge all excell file 
-        
+        //now merge all excel   file 
+           int totalReportCount=jrxlsReportList != null ? jrxlsReportList.size() : 0;
+           reportDetails.setTotalReport(totalReportCount);
 		  // Specify the directory containing the uploaded Excel files Path
 		 Path resourceDirectory = Paths.get(RESOURCE_XLSX_DIRECTORY_PATH);
 		  
@@ -137,7 +156,7 @@ public class JasperDemoController {
 		  
 		  // Save merged file to src/main/resources/generated-reports folder
 		  Path generatedDirectory = Paths.get(GENERATED_MERGED_XLSX_DIRECTORY_PATH); 
-		  Path mergedFilePath = generatedDirectory.resolve("mergedExcel.xlsx");
+		  Path mergedFilePath = generatedDirectory.resolve(mergedExcellName);
 		  
 		  try { Workbook mergedWorkbook = new XSSFWorkbook();
 		  
@@ -150,6 +169,38 @@ public class JasperDemoController {
 		  FileOutputStream(mergedFilePath.toFile())) { mergedWorkbook.write(fileOut);
 		  System.out.println("Merged Excel file created successfully at " +
 		  mergedFilePath.toAbsolutePath()); }
+		  reportDetails.setMergedExcelReportName(mergedExcellName);
+		  
+		  //now create the json
+	        // Convert to JSON and save to file
+	        ObjectMapper objectMapper = new ObjectMapper();
+	        try {
+	            // Convert the object to a JSON string
+	            String json = objectMapper.writeValueAsString(reportDetails);
+
+	            // Determine the file path
+	            String fileName = id + ".json"; // Use ID as file name
+	            String folderPath =RESOURCE_DIRECTORY_PATH+ "/"+id +"/"; // Specify your desired folder path
+	            File directory = new File(folderPath);
+
+	            // Create the directory if it doesn't exist
+	            if (!directory.exists()) {
+	                directory.mkdirs(); // Create all necessary directories
+	            }
+
+	            // Create the file within the directory
+	            File jsonFile = new File(directory, fileName);
+
+	            // Write the JSON string to the file
+	            objectMapper.writeValue(jsonFile, reportDetails);
+
+	            System.out.println("JSON saved to file: " + jsonFile.getAbsolutePath());
+
+	        } catch (IOException e) {
+	            e.printStackTrace();
+	        }
+
+		  //json creation ends here
 		  
 		  mergedWorkbook.close(); 
 		  }catch(IOException e)
