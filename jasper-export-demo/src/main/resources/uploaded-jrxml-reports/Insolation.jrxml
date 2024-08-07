@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.2.final using JasperReports Library version 6.21.2-8434a0bd7c3bbc37cbf916f2968d35e4b165821a  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Insolation" pageWidth="2325" pageHeight="2400" columnWidth="2285" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="50785126-ab68-42e5-b580-70729af729f3">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="param_db_1"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<queryString>
+		<![CDATA[select * from book1]]>
+	</queryString>
+	<field name="Date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Date"/>
+		<property name="com.jaspersoft.studio.field.label" value="Date"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="B-3" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="B-3"/>
+		<property name="com.jaspersoft.studio.field.label" value="B-3"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[0]" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[0]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[0]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[1]" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[1]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[1]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="B-8" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="B-8"/>
+		<property name="com.jaspersoft.studio.field.label" value="B-8"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[2]" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[2]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[2]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[3]" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[3]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[3]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[4]" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[4]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[4]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="B-15" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="B-15"/>
+		<property name="com.jaspersoft.studio.field.label" value="B-15"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[5]" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[5]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[5]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[6]" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[6]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[6]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[7]" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[7]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[7]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="B-19" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="B-19"/>
+		<property name="com.jaspersoft.studio.field.label" value="B-19"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[8]" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[8]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[8]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[9]" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[9]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[9]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[10]" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[10]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[10]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="B-22" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="B-22"/>
+		<property name="com.jaspersoft.studio.field.label" value="B-22"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[11]" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[11]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[11]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[12]" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[12]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[12]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[13]" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[13]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[13]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="B-24" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="B-24"/>
+		<property name="com.jaspersoft.studio.field.label" value="B-24"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[14]" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[14]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[14]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[15]" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[15]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[15]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[16]" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[16]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[16]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="B-25" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="B-25"/>
+		<property name="com.jaspersoft.studio.field.label" value="B-25"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[17]" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[17]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[17]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[18]" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[18]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[18]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[19]" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[19]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[19]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="AvgofAvg insolation" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="AvgofAvg insolation"/>
+		<property name="com.jaspersoft.studio.field.label" value="AvgofAvg insolation"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="AvgofSum insolation" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="AvgofSum insolation"/>
+		<property name="com.jaspersoft.studio.field.label" value="AvgofSum insolation"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="MyUnknownColumn_[20]" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="MyUnknownColumn_[20]"/>
+		<property name="com.jaspersoft.studio.field.label" value="MyUnknownColumn_[20]"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<field name="lasT_col" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="lasT_col"/>
+		<property name="com.jaspersoft.studio.field.label" value="lasT_col"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="book1"/>
+	</field>
+	<columnHeader>
+		<band height="103" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="80" height="80" uuid="cfdf2b00-1c28-4b6f-9d4c-9e4c40d73645"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[
+
+Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="80" y="0" width="280" height="30" uuid="67863214-1506-4aea-a4f5-a98fb82cc658"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[B-3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="80" y="30" width="70" height="50" uuid="b7f36da2-ad84-4c4e-9970-3feacb592cf3"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Avg
+Irradiation
+w/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="30" width="70" height="50" uuid="9fc0c57a-2bab-459f-b07b-6debdde26a6d"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Avg
+Irradiation
+Kwh/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="30" width="70" height="50" uuid="3e342ee8-5cfa-4afd-8cc8-116e55c1bd38"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sum of Irradiation w/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="290" y="30" width="70" height="50" uuid="a513853c-3794-4a17-a558-3e361fd5f73e"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sum of Irradiation kwh/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="0" width="280" height="30" uuid="1092bf6a-ab87-450a-b5b3-27e82ec32c5f"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[B-8]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="500" y="30" width="70" height="50" uuid="4b8aa766-ef97-47c7-812e-fbb5e0032e7a"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sum of Irradiation w/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="570" y="30" width="70" height="50" uuid="afdecf82-55f6-4c75-af65-cd0417a95dc1"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sum of Irradiation kwh/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="30" width="70" height="50" uuid="1bf8637b-207d-40dd-8efe-941f7d42c99c"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Avg
+Irradiation
+w/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="430" y="30" width="70" height="50" uuid="2f97d15d-b752-401f-9e1c-7deafaebc2ae"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Avg
+Irradiation
+Kwh/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="640" y="30" width="70" height="50" uuid="0928bd16-31a3-40f5-8f00-b60875a06d05"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Avg
+Irradiation
+w/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="640" y="0" width="280" height="30" uuid="e9558ce5-2fa6-475d-ac62-13fa08bb651f"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[B-15]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="850" y="30" width="70" height="50" uuid="64347f73-506c-4095-bc00-174d1f2b0175"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sum of Irradiation kwh/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="710" y="30" width="70" height="50" uuid="a7680880-07c3-42ca-b00a-ea1f68b12fd7"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Avg
+Irradiation
+Kwh/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="780" y="30" width="70" height="50" uuid="d42494a4-c490-48d6-a9eb-69375bd30061"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sum of Irradiation w/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="920" y="30" width="70" height="50" uuid="1662b0e5-642d-40c5-af7f-35acc7d24fad"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Avg
+Irradiation
+w/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="920" y="0" width="280" height="30" uuid="8ac73577-4c96-4266-a4aa-55f3f20b4fe8"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[B-19]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1130" y="30" width="70" height="50" uuid="335ddae3-8ffa-4a09-a883-6ae644942fc4"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sum of Irradiation kwh/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="990" y="30" width="70" height="50" uuid="d50f485a-d14a-4cda-be0d-82a3e54eff4b"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Avg
+Irradiation
+Kwh/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1060" y="30" width="70" height="50" uuid="7784f323-5659-4b42-9bcd-27a31591a494"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sum of Irradiation w/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1200" y="0" width="280" height="30" uuid="64205637-0ca2-4ad7-a075-05d24610cffd"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[B-22]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1410" y="30" width="70" height="50" uuid="58c46044-b353-4825-adca-730c31f84680"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sum of Irradiation kwh/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1270" y="30" width="70" height="50" uuid="2f4b1481-29bd-4a36-98ca-f0cc9ad2f19a"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Avg
+Irradiation
+Kwh/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1200" y="30" width="70" height="50" uuid="bcfbf88f-9ca6-4eb9-8974-1db8e2d255be"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Avg
+Irradiation
+w/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1340" y="30" width="70" height="50" uuid="f9376807-5a17-4133-9621-92af32dee732"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sum of Irradiation w/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1480" y="0" width="280" height="30" uuid="ac2a8a8f-2d29-4909-8045-bd1f266b064c"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[B-24]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1690" y="30" width="70" height="50" uuid="bca918ca-2f14-4523-8b2b-bc6fa687b587"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sum of Irradiation kwh/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1550" y="30" width="70" height="50" uuid="c792b257-6219-4ed5-ab39-9c75148b7dcc"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Avg
+Irradiation
+Kwh/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1480" y="30" width="70" height="50" uuid="0ee6bde8-e7cc-4254-b48e-6c7a0eddfb08"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Avg
+Irradiation
+w/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1620" y="30" width="70" height="50" uuid="0672ee4e-67ad-4b90-82c2-a16b8cb5abc5"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sum of Irradiation w/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1760" y="0" width="280" height="30" uuid="371649cf-92d2-4b19-8ad2-4b503213ab70"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[B-25]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1970" y="30" width="70" height="50" uuid="7bce825f-c413-4ce7-b2b6-9e7eebc2088c"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sum of Irradiation kwh/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1830" y="30" width="70" height="50" uuid="c415c7fc-233a-4002-a87a-5ace7cd8020e"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Avg
+Irradiation
+Kwh/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1760" y="30" width="70" height="50" uuid="1809894b-9987-4627-b2c2-1618813c6541"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Avg
+Irradiation
+w/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1900" y="30" width="70" height="50" uuid="c8c5d120-2116-47e9-9313-01e3ee95999a"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sum of Irradiation w/sq.m]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2040" y="0" width="70" height="80" uuid="c61cde7b-b0a1-4b8a-9433-c3914c0a86fd"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[
+
+
+
+Average of Avg insolation  ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2110" y="0" width="70" height="80" uuid="037e2731-f041-4ba2-ba25-f11da3d1dbee"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[
+
+
+Average of Sum insolation  ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2180" y="0" width="10" height="80" uuid="0ae84a57-c1b2-4e02-9d4f-2b02272db7ad"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2190" y="0" width="90" height="80" uuid="f34877b6-8c92-4886-80ca-39de6148720d"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[At Load Curtailment Average of Sum insolation
+Kwh/sq.m  ]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="49" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="80" height="30" uuid="6a9f8761-6455-4920-8663-22538d9a70ed">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6f096053-6162-4660-ba72-4bc0c894aee6"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{Date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="80" y="0" width="70" height="30" backcolor="#27A849" uuid="5483b5c5-b1aa-4392-8abd-54d643097785">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b2ba5561-0e08-40d8-ab93-be443b9a43d5"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{B-3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="150" y="0" width="70" height="30" uuid="c0a2776e-e817-43c4-bfe1-a6f830c3d96c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="755359d5-82a1-48ee-bbcd-c3ab061566d6"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="220" y="0" width="70" height="30" backcolor="#27A849" uuid="273397d1-9c88-4686-8677-5c7a331461bf">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="90784232-6c9b-4cdf-9688-565c019b903a"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[0]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="290" y="0" width="70" height="30" uuid="50c63239-f5be-4f4f-bb36-c1a8cd9f8fa9">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="fba6462d-b19e-41ea-91a8-a767a85963fd"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[1]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="360" y="0" width="70" height="30" backcolor="#27A849" uuid="f401648a-f2e1-432a-9134-4ad40d588441">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0310f1f7-4cf7-4781-91b7-b0ad2cc3a764"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{B-8}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="0" width="70" height="30" uuid="059d3120-a45e-412d-b471-215a799c94aa">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3e97a06c-52cc-46c0-9f27-688e81c576b5"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[2]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="500" y="0" width="70" height="30" backcolor="#27A849" uuid="c33f619a-de48-45a9-9faa-978f2d62127f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7e08d69a-b71b-47e7-abdf-c0d56e1af251"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[3]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="570" y="0" width="70" height="30" backcolor="#27A849" uuid="2bf57759-9b91-430b-8585-c2d888df6b09">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="30c39a64-991a-4583-9f7f-0850d310dbd5"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[4]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="640" y="0" width="70" height="30" uuid="13649f32-4fce-41ca-84a5-13665b5f2e08">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b34c06c4-3b59-4c46-badf-5b53d4426a47"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{B-15}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="710" y="0" width="70" height="30" backcolor="#27A849" uuid="dc2e131d-951c-4f6a-8d90-3675b900d502">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a5bbd7df-e9aa-41e0-97da-d05b75469aff"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[5]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="780" y="0" width="70" height="30" backcolor="#27A849" uuid="01ad45f9-eddd-40a2-91d3-8bbc96b3ad10">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ddbc7865-c169-45ba-8be7-acd6842ba29f"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[6]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="850" y="0" width="70" height="30" uuid="72e240c0-6ab8-4c6f-9ddf-48ac2bad58fc">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e570bfa3-ce95-4907-a665-38bf06b7d0cc"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[7]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="920" y="0" width="70" height="30" backcolor="#27A849" uuid="32e01802-ae9b-4eb3-a406-cd55d097c14f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2ebc111a-5433-4727-b5c6-5365a3e67935"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{B-19}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="990" y="0" width="70" height="30" backcolor="#27A849" uuid="7d03ca90-1d36-4443-96c5-b19d0c1e39e7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="c5b11f17-f972-48ee-ae83-ec3b9fc2a38c"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[8]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1060" y="0" width="70" height="30" uuid="b7d7fef5-8bf7-4e58-97e1-fe6d8c52fa40">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="466c545f-8c0b-44a5-b8d2-38c4a863d78c"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[4]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="1130" y="0" width="70" height="30" backcolor="#27A849" uuid="67ef1408-a2da-42ad-83c6-185719e3eb24">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3463a523-e9d5-4900-be3b-f72f4f78f2f8"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[10]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="1200" y="0" width="70" height="30" backcolor="#27A849" uuid="8e4c1e7d-cc62-414c-a45d-5171452704bb">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0420fe5f-abe5-4fda-9e13-30ba5a5201af"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{B-22}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1270" y="0" width="70" height="30" uuid="7d2947fe-946d-48cd-9c94-73edc77ea460">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="205586f6-a73c-4206-a3d1-cfd0fc6c2c2c"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[11]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="1340" y="0" width="70" height="30" backcolor="#27A849" uuid="8c9ff87e-4c2e-41ff-b60e-c6817ddecd07">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b57f1b3a-7df4-44e1-846f-e77a3a137835"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[12]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="1410" y="0" width="70" height="30" backcolor="#27A849" uuid="50282d34-f065-4557-9ddb-4feb923ea45e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="09354279-f909-4ef6-8ffd-0d0b899fa703"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[13]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1480" y="0" width="70" height="30" uuid="239d3f23-74f5-4e69-84a9-1565d764310b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4097c03e-22c5-40be-a7fd-6a671d21ad37"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{B-24}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="1550" y="0" width="70" height="30" backcolor="#27A849" uuid="cd51dcd3-2007-4024-bdea-b5a2115c1d70">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9dfc2afb-55eb-4b84-be5a-ea24834a7229"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[14]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="1620" y="0" width="70" height="30" backcolor="#27A849" uuid="44341cde-f7e7-4f29-81af-aeb09277de34">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b0b1dd26-d5e1-4947-884a-90dd778a8aaf"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[15]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1690" y="0" width="70" height="30" uuid="104a048c-ffea-4929-ab0a-82c0a9fbe08d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="83e457ba-b0cc-4dc7-a6e7-5e183d6fb501"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[19]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="1760" y="0" width="70" height="30" backcolor="#27A849" uuid="24dafc74-e652-4d88-ac23-439556208e39">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="93b2924b-d409-44b3-9b50-6627a5e1a81f"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{B-25}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="1830" y="0" width="70" height="30" backcolor="#27A849" uuid="b00e1d07-f1d7-49c1-83f4-1f46fb7d58a1">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7b90495c-5383-41a7-a214-58ca3b1e1849"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[17]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1900" y="0" width="70" height="30" uuid="a069015a-19c1-43c5-9a60-8c8e330f44cb">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="065035c3-f57b-432b-9360-caa6e38ed626"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[18]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1970" y="0" width="70" height="30" uuid="55d758b1-1cf8-48c6-bcb2-e6c48bd070d2">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3dea8007-9763-4e2a-a8bd-154cf02528a5"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{MyUnknownColumn_[19]}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2040" y="0" width="70" height="30" uuid="0f88d2b0-67fb-4f3a-b773-c71d3cb01149">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="56054754-fb79-47a8-978e-ec6ea25f66b8"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{AvgofAvg insolation}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2110" y="0" width="80" height="30" uuid="e5c96f35-9a0e-43ae-95fe-b86babba7881">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="62df15fa-b97c-43de-acbe-06f6c8eedcbc"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{AvgofSum insolation}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="2190" y="0" width="90" height="30" backcolor="#27A849" uuid="a4c566c6-40e7-4309-9a1f-08d0dc1547a7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d8074334-4577-49ef-9443-79802d70d858"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textFieldExpression><![CDATA[$F{lasT_col}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
