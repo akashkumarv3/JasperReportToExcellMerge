@@ -24,6 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.javahowtos.jasperdemo.beans.Ifsp;
+import com.javahowtos.jasperdemo.beans.JrlxsReportBean;
 import com.javahowtos.jasperdemo.beans.ReportDetails;
 
 import net.sf.jasperreports.engine.JRException;
@@ -91,17 +92,23 @@ public class JasperDemoController {
         ReportDetails reportDetails=new ReportDetails();
     	
         reportDetails.setFolderName(id);
-        List<String> jrxlsReportList=new ArrayList<>();
-        List<String> xlnsReportList =new ArrayList<>();
+        List<JrlxsReportBean> jrxlsReportList=new ArrayList<>();
         
         File resourceDir = new File(RESOURCE_DIRECTORY_PATH+"/"+id);
         File[] jrxmlFiles = resourceDir.listFiles((dir, name) -> name.endsWith(".jrxml"));
 
+        int count = 1; // Initialize a counter
         if (jrxmlFiles != null) {
             for (File jrxmlFile : jrxmlFiles) {
                 String fileName = jrxmlFile.getName();
-                jrxlsReportList.add(fileName);
-                reportDetails.setJrxlsReportList(jrxlsReportList);
+                
+                JrlxsReportBean reportBean=new JrlxsReportBean();
+                reportBean.setReportFile(fileName);
+                reportBean.setReportName(fileName.replace(".jrxml", ""));
+                reportBean.setId(count);
+                jrxlsReportList.add(reportBean);
+               
+                
                 String jasperFile = GENERATED_DIRECTORY_PATH + "/"+ JASPER_FOLDER + fileName.replace(".jrxml", ".jasper");
                 String excelFile = GENERATED_DIRECTORY_PATH + "/" + XLSX_FOLDER + fileName.replace(".jrxml", ".xlsx");
 
@@ -135,12 +142,12 @@ public class JasperDemoController {
                     exporter.exportReport();
 
                     System.out.println("Report generated successfully for file: " + fileName);
-                    xlnsReportList.add(fileName.replace(".jrxml", ".xlsx"));
-                    reportDetails.setXlnsReportList(xlnsReportList);
-
+                    reportDetails.setJrxlsReportList(jrxlsReportList);
+                    
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
+                count++; // Increment the counter
             }
         } else {
             System.out.println("No JRXML files found in the directory.");
