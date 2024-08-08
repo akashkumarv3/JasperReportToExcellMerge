@@ -47,7 +47,9 @@ public class ExcelMergeService {
              Workbook workbook = new XSSFWorkbook(fileIn)) {
             for (int i = 0; i < workbook.getNumberOfSheets(); i++) {
                 Sheet inputSheet = workbook.getSheetAt(i);
-                Sheet newSheet = mergedWorkbook.createSheet(inputSheet.getSheetName() + "_" + excelFile.getName());
+               // Sheet newSheet = mergedWorkbook.createSheet(inputSheet.getSheetName() + "_" + excelFile.getName());
+                String excelFileName=excelFile.getName().replace(".xlsx", "");
+                Sheet newSheet = mergedWorkbook.createSheet(excelFile.getName().replace(".xlsx", ""));
 
                 // Copy rows and cells
                 copyRowsAndCells(inputSheet, newSheet, mergedWorkbook);
